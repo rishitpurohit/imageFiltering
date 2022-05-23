@@ -1,0 +1,15 @@
+body{
+    background: "background.jpg";
+}
+canvas{
+    animation-name:animation1;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+border-style:dashed;
+border-width: 10px;
+}
+
+@keyframes animation1{
+    from{box-shadow: 5px 5px 38px green}
+    to{box-shadow:5px 5px 38px blue}
+};
