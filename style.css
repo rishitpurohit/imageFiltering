@@ -1,15 +1,19 @@
 body{
     background: "background.jpg";
 }
+h1{
+    color:aqua
+}
 canvas{
     animation-name:animation1;
 animation-duration: 2s;
 animation-iteration-count: infinite;
 border-style:dashed;
 border-width: 10px;
+border-color:brown;
 }
 
 @keyframes animation1{
-    from{box-shadow: 5px 5px 38px green}
-    to{box-shadow:5px 5px 38px blue}
+    from{box-shadow: 5px 5px 38px yellow}
+    to{box-shadow:5px 5px 38px cyan}
 };
